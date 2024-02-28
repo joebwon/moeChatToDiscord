@@ -46,10 +46,10 @@ LOG_DIRECTORY=C:\moenew\MatrixServerTool\chat_logs\
 ### Environment Variables
 
 
-- `DISCORD_WEBHOOK`: The directory where game states are stored.
-- `GLOBAL_CHANNELS`: The directory where backup zip files are placed.
-- `CHANNEL_FRIENDLY_NAMES`: The maximum number of game states to include in a backup. The maximum number of Game States folders to add to the archive in a single execution.
-- `LOG_DIRECTORY`: Whether to delete older backups after creating a new one (`True` or `False`).
+- `DISCORD_WEBHOOK`: The URL of the discord webhook.
+- `GLOBAL_CHANNELS`: The comma-separated list of channel IDs.
+- `CHANNEL_FRIENDLY_NAMES`: channelid=ChannelName, comma separated list of channelname=friendlyname relationships
+- `LOG_DIRECTORY`: Directory where the chat logs reside.
 
 ## Windows installation
 
