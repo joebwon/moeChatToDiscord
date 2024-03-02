@@ -61,7 +61,7 @@ def watch_log_file(directory):
                 current_file = new_file
                 file_position = 0
 
-            with open(current_file, 'r') as file:
+            with open(current_file, 'r', encoding='utf-8') as file:
                 file.seek(file_position)
                 lines = file.readlines()
                 file_position = file.tell()
